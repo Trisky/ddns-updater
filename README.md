@@ -14,7 +14,7 @@ DNS query based dynamic DNS updater.
 ### docker-compose
 
 ```yaml
-version: "2.1"
+version: "3.8"
 services:
   ddns-updater:
     image: trisky/ddns-updater
