@@ -1,5 +1,6 @@
 # ddns-updater
 DNS query based dynamic DNS updater. 
+https://github.com/Trisky/ddns-updater
 
 ## Features
 
