@@ -9,6 +9,11 @@ DNS query based dynamic DNS updater.
 - Published ARMv7 and LINUX64 images in [Docker hub](https://hub.docker.com/)
 - Only logs on IP change or on errors, so you can `docker logs` and check when was the last failure.
 
+## Motivation
+ - Set up a reliable DDNS solution for personal use.
+ - Avoid relying in commercial products or unreliable and throttled services to check public IP.
+
+
 ## Usage
 
 ### docker-compose
@@ -34,8 +39,9 @@ docker run -d \
 ```
 
 ## Limitations
-
 - Don't run this if you have more than one internet connection and you use a load balancer as it will continually update your DDNS between your public IPs.
 
+
 ## ToDo:
-- Add customizable check interval
+- Add customizable ip change check interval
+
